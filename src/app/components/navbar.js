@@ -18,7 +18,7 @@ export default function Navbar() {
   ];
   return (
     <nav className="bg-black items-center flex justify-between w-full lg:gap-60 text-white lg:px-15 px-8 ">
-        {toggle && <MobileMenu />}
+        {/* {toggle && <MobileMenu />} */}
 
       <img className="h-20 hover:scale-125" src="/sticker.webp"></img>
       <ul className="hidden lg:flex gap-8 ">
