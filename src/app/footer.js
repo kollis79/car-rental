@@ -12,7 +12,7 @@ export default function Footer() {
       </div>
       <div className="py-10 p-10">
         <ul className="flex justify-between hover:scale-105 transform ">
-          <li> Home</li>
+          <li><a href="">Home</a> </li>
           <l>About</l>
           <li>Services</li>
           <li>Blog</li>

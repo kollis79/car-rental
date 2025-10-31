@@ -1,23 +1,23 @@
 "use client";
 import { useState } from "react";
 
+
 export default function Navbar() {
     const[toggle,setToggle] = useState(false);
     function controlToggle (){
         setToggle (!toggle)
     }
   const links = [
-    { name: "HOME", path: "/" },
-    { name: "ABOUT", path: "/" },
-    { name: "SERVICES", path: "/" },
-    { name: "SAFETY POLICY", path: "/" },
-    { name: "GALLERY", path: "/" },
-    { name: "LIST YOUR CAR WITH US", path: "/" },
+    { name: "ABOUT", path: "/Home" },
+    { name: "SERVICES", path: "/Services" },
+    { name: "SAFETY POLICY", path: "/Safety" },
+    { name: "GALLERY", path: "/Gallery" },
+    { name: "LIST YOUR CAR WITH US", path: "/List" },
     { name: "CONTACT", path: "/" },
     { name: "BLOG", path: "/" },
   ];
   return (
-    <nav className="bg-black items-center flex justify-between w-full lg:gap-60 text-white lg:px-15 px-8 ">
+    <nav className="bg-black flex items-center  justify-between w-full lg:gap-60 text-white lg:px-15 px-8 ">
         {/* {toggle && <MobileMenu />} */}
 
       <img className="h-20 hover:scale-125" src="/sticker.webp"></img>
