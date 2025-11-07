@@ -1,4 +1,4 @@
-export default function Product() {
+export default function Dash() {
   return (
     <div className="bg-black/15 h-20 w-full">
   

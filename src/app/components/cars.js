@@ -1,5 +1,6 @@
 "use client";
 import { easeInOut, motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Cars() {
   return (
@@ -32,16 +33,17 @@ export default function Cars() {
           className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center "
         >
           <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
-          <p>
+          <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
-            <div onClick={""} className="w-30 ml-50">
-              {" "}
-              <p className=" border-8 mt-20 text-black">RESERVE</p>
+            <div className="w-30 ml-50">
+              <p className=" border-8 mt-20 text-black">
+                <a href="Reserve">BOOK ME</a>
+              </p>
             </div>
-          </p>{" "}
+          </div>
         </motion.div>
 
         <motion.img
@@ -56,111 +58,134 @@ export default function Cars() {
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
           <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
-          <p>
+          <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
-            <div onClick={""} className="w-30 ml-50">
-              {" "}
-              <p className=" border-8 mt-20 text-black">RESERVE</p>
+            <div className= "w-30 ml-50">
+              <p className=" border-8 mt-20 text-black">BOOK ME</p>
             </div>
-          </p>{" "}
+          </div>
         </div>
+        <Image
+  src="/honda 3.jpg"
+  alt="Honda"
+  width={800}
+  height={400}
+  className="w-[35%] h-80 mb-10"
+/>
 
-        <img src="/honda 3.jpg" className=" w-[35%] h-80 mb-10"></img>
+       
       </div>
 
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
           <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
-          <p>
+          <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
-            <div onClick={""} className="w-30 ml-50">
-              {" "}
-              <p className=" border-8 mt-20 text-black">RESERVE</p>
+            <div className="w-30 ml-50">
+              <p className=" border-8 mt-20 text-black"> BOOK ME</p>
             </div>
-          </p>{" "}
+          </div>
         </div>
-
-        <img src="/corolla.jpg" className=" w-[35%] h-80 mb-10"></img>
+<Image
+  src="/corolla.jpg"
+  alt="Toyota Corolla"
+  width={800}
+  height={400}
+  className="w-[35%] h-80 mb-10"
+/>
       </div>
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
           <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
-          <p>
+          <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
-            <div onClick={"#"} className="w-30 ml-50">
-              {" "}
-              <p className=" border-8 mt-20 text-black">RESERVE</p>
+            <div className="w-30 ml-50">
+              <p className=" border-8 mt-20 text-black">BOOK ME</p>
             </div>
-          </p>{" "}
+          </div>
+          
         </div>
-
-        <img src="/honda 3.jpg" className=" w-[35%] h-80 mb-10"></img>
+<Image
+  src="/honda 3.jpg"
+  alt="Honda Car"
+  width={800}
+  height={400}
+  className="w-[35%] h-80 mb-10"
+/>
       </div>
       <p className="text-4xl text-center">EXCUTIVE</p>
       <div className="h-80  p-1   flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
           <p className="text-center text-white  ">SECURITY SERVICE </p>
-          <p>
+          <div>
             At Kollis-Logistics, safety and security are paramount. Our highly
             trained armed security professionals offer peace of mind throughout
             your journey, whether you’re attending high-profile events or
             require personal security in Nigeria.
-            <div onClick={"#"} className="w-30 ml-50">
-              
-              <p className=" border-8 mt-20 text-black">RESERVE</p>
+            <div className="w-30 ml-50">
+              <p className=" border-8 mt-20 text-black">BOOK ME</p>
             </div>
-          </p>
+          </div>
         </div>
-
-        <img src="/police.webp" className=" w-[35%] h-80 mb-10"></img>
+<Image
+  src="/police.webp"
+  alt="Police Car"
+  width={800}
+  height={400}
+  className="w-[35%] h-80 mb-10"
+/>
       </div>
       <div>
         <div className="h-80  p-1   flex justify-center ">
           <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
             <p className="text-center text-white  ">SECURITY SERVICE </p>
-            <p>
+            <div>
               Experience unmatched comfort and sophistication with Kollis
               Logistics executive luxury car service, ideal for business travel,
               special occasions, and exclusive nightlife services with presence
               in Lagos..
-              <div onClick={"#"} className="w-30 ml-50">
-                {" "}
-                <p className=" border-8 mt-20 text-black">RESERVE</p>
+              <div className="w-30 ml-50">
+                <p className=" border-8 mt-20 text-black">BOOK ME</p>
               </div>
-            </p>{" "}
+            </div>
           </div>
-
-          <img src="prado.webp" className=" w-[35%] h-80 mb-10"></img>
+<Image
+src="/prado.webp"
+alt="prado"
+width={800}
+height={400}
+className="w-[35%] h-80 mb-10" />
         </div>
         <div>
           <div className="h-80  p-1   flex justify-center ">
             <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
               <p className="text-center text-white  ">SECURITY SERVICE </p>
-              <p>
+              <div>
                 Experience unmatched comfort and sophistication with Kollis
                 Logistics executive luxury car service, ideal for business
                 travel, special occasions, and exclusive nightlife services with
                 presence in Lagos.
-                <div onClick={"#"} className="w-30 ml-50">
-                  {" "}
-                  <p className=" border-8 mt-20 text-black">RESERVE</p>
+                <div className="w-30 ml-50">
+                  <p className=" border-8 mt-20 text-black">BOOK ME</p>
                 </div>
-              </p>{" "}
+              </div>
             </div>
-
-            <img
-              src="/2008-Toyota-Highlander-Base.webp"
-              className=" w-[35%] h-80 mb-10"
-            ></img>
+ <Image
+      src="/2008-Toyota-Highlander-Base.webp"
+      alt="2008 Toyota Highlander"
+      width={800}
+      height={400}
+      className="w-[35%] h-80 mb-10"
+    />
           </div>
         </div>
       </div>
