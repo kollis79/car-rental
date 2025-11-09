@@ -63,20 +63,18 @@ export default function Cars() {
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
-            <div className= "w-30 ml-50">
+            <div className="w-30 ml-50">
               <p className=" border-8 mt-20 text-black">BOOK ME</p>
             </div>
           </div>
         </div>
         <Image
-  src="/honda 3.jpg"
-  alt="Honda"
-  width={800}
-  height={400}
-  className="w-[35%] h-80 mb-10"
-/>
-
-       
+          src="/honda 3.jpg"
+          alt="Honda"
+          width={800}
+          height={400}
+          className="w-[35%] h-80 mb-10"
+        />
       </div>
 
       <div className="h-80  p-1  flex justify-center ">
@@ -92,13 +90,13 @@ export default function Cars() {
             </div>
           </div>
         </div>
-<Image
-  src="/corolla.jpg"
-  alt="Toyota Corolla"
-  width={800}
-  height={400}
-  className="w-[35%] h-80 mb-10"
-/>
+        <Image
+          src="/corolla.jpg"
+          alt="Toyota Corolla"
+          width={800}
+          height={400}
+          className="w-[35%] h-80 mb-10"
+        />
       </div>
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
@@ -112,15 +110,14 @@ export default function Cars() {
               <p className=" border-8 mt-20 text-black">BOOK ME</p>
             </div>
           </div>
-          
         </div>
-<Image
-  src="/honda 3.jpg"
-  alt="Honda Car"
-  width={800}
-  height={400}
-  className="w-[35%] h-80 mb-10"
-/>
+        <Image
+          src="/honda 3.jpg"
+          alt="Honda Car"
+          width={800}
+          height={400}
+          className="w-[35%] h-80 mb-10"
+        />
       </div>
       <p className="text-4xl text-center">EXCUTIVE</p>
       <div className="h-80  p-1   flex justify-center ">
@@ -136,13 +133,13 @@ export default function Cars() {
             </div>
           </div>
         </div>
-<Image
-  src="/police.webp"
-  alt="Police Car"
-  width={800}
-  height={400}
-  className="w-[35%] h-80 mb-10"
-/>
+        <Image
+          src="/police.webp"
+          alt="Police Car"
+          width={800}
+          height={400}
+          className="w-[35%] h-80 mb-10"
+        />
       </div>
       <div>
         <div className="h-80  p-1   flex justify-center ">
@@ -158,12 +155,13 @@ export default function Cars() {
               </div>
             </div>
           </div>
-<Image
-src="/prado.webp"
-alt="prado"
-width={800}
-height={400}
-className="w-[35%] h-80 mb-10" />
+          <Image
+            src="/prado.webp"
+            alt="prado"
+            width={800}
+            height={400}
+            className="w-[35%] h-80 mb-10"
+          />
         </div>
         <div>
           <div className="h-80  p-1   flex justify-center ">
@@ -179,13 +177,13 @@ className="w-[35%] h-80 mb-10" />
                 </div>
               </div>
             </div>
- <Image
-      src="/2008-Toyota-Highlander-Base.webp"
-      alt="2008 Toyota Highlander"
-      width={800}
-      height={400}
-      className="w-[35%] h-80 mb-10"
-    />
+            <Image
+              src="/2008-Toyota-Highlander-Base.webp"
+              alt="2008 Toyota Highlander"
+              width={800}
+              height={400}
+              className="w-[35%] h-80 mb-10"
+            />
           </div>
         </div>
       </div>

@@ -20,7 +20,16 @@ export default function Navbar() {
     <nav className="bg-black fixed top-0  z-80 flex items-center  justify-between w-full lg:gap-60 text-white lg:px-15 px-8 ">
       {/* {toggle && <MobileMenu />} */}
 
-      <img className="h-20 hover:scale-125" src="/sticker.webp"></img>
+      <img  
+      className="h-20 hover:scale-125" 
+      src="/sticker.webp"
+      alt="sticker"
+      height={20}
+      >
+       </img>
+
+    
+      
       <ul className="hidden lg:flex gap-8 ">
         {links.map((link) => (
           <li key={link.name} className="hover:scale-110">
@@ -33,7 +42,9 @@ export default function Navbar() {
       <img
         onClick={controlToggle}
         src="/icons8-hamburger-menu (2).svg"
-        className="flex lg:hidden w-6"
+        alt="hamburger"
+        width={30}
+        className="flex lg:hidden "
       ></img>
     </nav>
   );
