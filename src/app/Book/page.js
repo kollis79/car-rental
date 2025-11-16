@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
 
-export default function Highlander() {
+export default function Book() {
   const [formData, setFormData] = useState({
     pickupDate: "",
     pickupTime: "",
@@ -26,7 +25,7 @@ export default function Highlander() {
   const handleBooking = (e) => {
     e.preventDefault();
     alert(
-      `✅ Booking Confirmed!\n\nVehicle: Toyota Highlander\nPickup: ${formData.pickupDate} at ${formData.pickupTime}\nRental: ${formData.rentalType}${
+      `✅ Booking Confirmed!\n\nPickup: ${formData.pickupDate} at ${formData.pickupTime}\nRental: ${formData.rentalType}${
         formData.rentalType === "hourly" ? ` for ${formData.hours} hour(s)` : ""
       }\nPayment: ${formData.paymentMethod}`
     );
@@ -35,16 +34,16 @@ export default function Highlander() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
       {/* Booking Form */}
-        <Navbar />
       <div className="w-full lg:w-[40%] bg-black/70 text-white shadow-2xl p-8 rounded-lg flex flex-col gap-6">
         <h2 className="text-2xl font-semibold text-center tracking-wide">
-          2008  HONDA ACCORD
+          2008 HONDA ACCORD
         </h2>
 
         <p className="text-gray-300 text-center text-sm leading-relaxed">
-          Experience unmatched comfort and sophistication with Kollis Logistics
-          executive luxury car service, ideal for business travel, special
-          occasions, and exclusive nightlife services with presence in Lagos.
+            Experience unmatched comfort and sophistication with Kollis
+              Logistics executive luxury car service, ideal for business travel,
+              special occasions, and exclusive nightlife services with presence
+              in Lagos..
         </p>
 
         <form
@@ -144,11 +143,11 @@ export default function Highlander() {
 
       {/* Car Image */}
       <Image
-        src="/honda 3.jpg"
-        alt="2008 Honda Accord"
+        src="/prado.webp"
+        alt="Luxury SUV for hire"
         width={800}
         height={400}
-        className="w-full lg:w-[30%] h-80 object-cover rounded-lg shadow-lg"
+        className="w-full lg:w-[40%] h-80 object-cover rounded-lg shadow-lg"
       />
     </div>
   );

@@ -1,4 +1,5 @@
-
+import Navbar from "../components/Navbar";
+import Services from "../Services/page";
 export default function Home(){
     return(
        
@@ -12,7 +13,8 @@ export default function Home(){
 
             </video>
             <div className="absolute inset-0 bg-black/90"></div>
-            
+            <Navbar/>
+            <Services/>
            
           <div className="relative flex items-center justify-center h-full">
              <h1 className="text-white text-center leading-tight text-7xl">NEED A RIDE? <p>CALL US ANYTIME.</p></h1>

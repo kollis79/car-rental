@@ -1,5 +1,5 @@
 
-export default function Product(){
+export default function Package(){
     
     return(
        <div className="w-full h-220 justify-between bg-black/10 " >

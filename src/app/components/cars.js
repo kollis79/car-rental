@@ -32,7 +32,7 @@ export default function Cars() {
           transition={{ duration: 2, ease: "easeInOut" }}
           className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center "
         >
-          <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
+          <p className="text-center text-white  ">2008 HONDER ACCORD </p>
           <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
@@ -57,14 +57,14 @@ export default function Cars() {
 
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
-          <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
+          <p className="text-center text-white  ">2008 HONDER ACCORD </p>
           <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
             <div className="w-30 ml-50">
-              <p className=" border-8 mt-20 text-black">BOOK ME</p>
+              <p className=" border-8 mt-20 text-black"><a href="Booking">BOOK ME</a></p>
             </div>
           </div>
         </div>
@@ -79,14 +79,14 @@ export default function Cars() {
 
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
-          <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
+          <p className="text-center text-white  ">2006 CORROLLA</p>
           <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
             <div className="w-30 ml-50">
-              <p className=" border-8 mt-20 text-black"> BOOK ME</p>
+              <p className=" border-8 mt-20 text-black"><a href="Taxi">BOOK ME</a> </p>
             </div>
           </div>
         </div>
@@ -100,14 +100,14 @@ export default function Cars() {
       </div>
       <div className="h-80  p-1  flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
-          <p className="text-center text-white  ">CAR RENTAL SERVICES </p>
+          <p className="text-center text-white  ">2008 HONDER ACCORD </p>
           <div>
             Experience unmatched comfort and sophistication with Kollis
             Logistics executive luxury car service, ideal for business travel,
             special occasions, and exclusive nightlife services with presence in
             Lagos.
             <div className="w-30 ml-50">
-              <p className=" border-8 mt-20 text-black">BOOK ME</p>
+              <p className=" border-8 mt-20 text-black"><a href="Honda">BOOK ME</a></p>
             </div>
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Cars() {
           className="w-[35%] h-80 mb-10"
         />
       </div>
-      <p className="text-4xl text-center">EXCUTIVE</p>
+      <p className="text-6xl text-center">EXECUTIVE</p>
       <div className="h-80  p-1   flex justify-center ">
         <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
           <p className="text-center text-white  ">SECURITY SERVICE </p>
@@ -129,7 +129,7 @@ export default function Cars() {
             your journey, whether you’re attending high-profile events or
             require personal security in Nigeria.
             <div className="w-30 ml-50">
-              <p className=" border-8 mt-20 text-black">BOOK ME</p>
+              <p className=" border-8 mt-20 text-black"><a href="Security">BOOK ME</a></p>
             </div>
           </div>
         </div>
@@ -144,14 +144,14 @@ export default function Cars() {
       <div>
         <div className="h-80  p-1   flex justify-center ">
           <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
-            <p className="text-center text-white  ">SECURITY SERVICE </p>
+            <p className="text-center text-white  ">2016 LEXUS 570 </p>
             <div>
               Experience unmatched comfort and sophistication with Kollis
               Logistics executive luxury car service, ideal for business travel,
               special occasions, and exclusive nightlife services with presence
               in Lagos..
               <div className="w-30 ml-50">
-                <p className=" border-8 mt-20 text-black">BOOK ME</p>
+                <p className=" border-8 mt-20 text-black"><a href="Book">BOOK ME</a></p>
               </div>
             </div>
           </div>
@@ -166,14 +166,14 @@ export default function Cars() {
         <div>
           <div className="h-80  p-1   flex justify-center ">
             <div className="w-[40%] bg-black/70 shadow-2xl p-8 flex flex-col gap-8 items-center text-center ">
-              <p className="text-center text-white  ">SECURITY SERVICE </p>
+              <p className="text-center text-white  ">2008 HIGHLANDER </p>
               <div>
                 Experience unmatched comfort and sophistication with Kollis
                 Logistics executive luxury car service, ideal for business
                 travel, special occasions, and exclusive nightlife services with
                 presence in Lagos.
                 <div className="w-30 ml-50">
-                  <p className=" border-8 mt-20 text-black">BOOK ME</p>
+                  <p className=" border-8 mt-20 text-black"><a href="Highlander">BOOK ME</a></p>
                 </div>
               </div>
             </div>

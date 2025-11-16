@@ -33,12 +33,14 @@ export default function Highlander() {
   };
 
   return (
+      
+    
     <div className="min-h-screen bg-gray-100 flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
       {/* Booking Form */}
         <Navbar />
-      <div className="w-full lg:w-[40%] bg-black/70 text-white shadow-2xl p-8 rounded-lg flex flex-col gap-6">
+      <div className="w-full lg:w-[40%] bg-black/70 text-white shadow-2xl p-8 rounded-lg flex flex-col gap-6 mt-12">
         <h2 className="text-2xl font-semibold text-center tracking-wide">
-          2008  HONDA ACCORD
+         2006 TOYOTA CORROLLA
         </h2>
 
         <p className="text-gray-300 text-center text-sm leading-relaxed">
@@ -64,6 +66,7 @@ export default function Highlander() {
               required
               className="w-full p-2 rounded bg-gray-100 text-black focus:outline-none focus:ring-2 focus:ring-yellow-500"
             />
+          
           </div>
 
           {/* Pickup Time */}
@@ -144,8 +147,8 @@ export default function Highlander() {
 
       {/* Car Image */}
       <Image
-        src="/honda 3.jpg"
-        alt="2008 Honda Accord"
+        src="/corolla.jpg"
+        alt="2006 Corrolla"
         width={800}
         height={400}
         className="w-full lg:w-[30%] h-80 object-cover rounded-lg shadow-lg"

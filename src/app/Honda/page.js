@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
 
 export default function Highlander() {
   const [formData, setFormData] = useState({
@@ -35,10 +34,9 @@ export default function Highlander() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col lg:flex-row justify-center items-center gap-6 p-6">
       {/* Booking Form */}
-        <Navbar />
       <div className="w-full lg:w-[40%] bg-black/70 text-white shadow-2xl p-8 rounded-lg flex flex-col gap-6">
         <h2 className="text-2xl font-semibold text-center tracking-wide">
-          2008  HONDA ACCORD
+          2008 HONDA ACCORD
         </h2>
 
         <p className="text-gray-300 text-center text-sm leading-relaxed">
